@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-Strix.Worker.Renew-39F56A29-A6D6-438F-BDF4-CAEFB973AE10</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\shared\Strix.Shared.Dns\Strix.Shared.Dns.csproj" />
+    <ProjectReference Include="..\..\shared\Strix.Shared.LetsEncrypt\Strix.Shared.LetsEncrypt.csproj" />
+  </ItemGroup>
+</Project>

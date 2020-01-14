@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Strix.Worker.Renew": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
